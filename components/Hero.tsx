@@ -25,10 +25,10 @@ export default function Hero() {
       {/* Full Screen Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/assets/vamcatupbackground.avif"
+          src="/assets/vamcatbacground1.png"
           alt="VampCat"
           fill
-          className="object-cover object-center md:object-center object-[left_30%_bottom_30%]"
+          className="object-cover object-center md:object-center object-[left_15%_bottom_30%]"
           priority
           quality={100}
         />
