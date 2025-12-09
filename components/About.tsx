@@ -23,7 +23,7 @@ export default function About() {
           transition={{ duration: 0.6 }}
           className="mb-16 md:mb-20"
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-black mb-4 tracking-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-black mb-4 tracking-tight">
             About <span className="text-red-600">$VCC</span>
           </h2>
           <div className="w-20 h-1.5 bg-red-600" />
@@ -53,21 +53,21 @@ export default function About() {
             className="space-y-8"
           >
             <div>
-              <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-black leading-tight uppercase">
+              <p className="text-xl md:text-2xl lg:text-3xl font-bold text-black leading-tight uppercase">
                 Community Driven Memecoin For Cat Lovers
               </p>
-              <p className="text-xl md:text-2xl text-gray-600 mt-4 font-medium">
+              <p className="text-lg md:text-xl text-gray-600 mt-4 font-medium">
                 Even When They Bite Us For No Reason
               </p>
             </div>
             
             <div className="space-y-6">
-              <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                 VampCatCoin is more than just another memecoin—it's a celebration of the mysterious, 
                 independent spirit of cats combined with the power of community-driven crypto culture.
               </p>
               
-              <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                 We're building something real, something fun, and something that lasts. No fake hype, 
                 just genuine community vibes and the enigmatic charm of our favorite feline friends.
               </p>

@@ -24,10 +24,10 @@ export default function TokenBurns() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 md:mb-20"
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4 tracking-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-4 tracking-tight">
             Token <span className="text-red-600">Burns</span>
           </h2>
-          <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mt-6 font-medium">
+          <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mt-6 font-medium">
             The VampCatCoin Monthly Burn Ritual, For All Of Us Cat Nerds
           </p>
           <div className="w-20 h-1.5 bg-red-600 mx-auto mt-6" />
@@ -56,7 +56,7 @@ export default function TokenBurns() {
             transition={{ duration: 0.7, delay: 0.4 }}
             className="space-y-8 order-1 lg:order-2"
           >
-            <h3 className="text-3xl md:text-4xl font-black text-white">
+            <h3 className="text-2xl md:text-3xl font-black text-white">
               Here's How It Works
             </h3>
             

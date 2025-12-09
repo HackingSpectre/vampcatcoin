@@ -23,8 +23,8 @@ export default function HowItStarted() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 md:mb-20"
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-4 tracking-tight">
-            How It All <span className="text-red-600">Started</span>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-4 tracking-tight">
+            How It <span className="text-red-600">Started</span>
           </h2>
           <div className="w-20 h-1.5 bg-red-600 mx-auto" />
         </motion.div>
@@ -38,27 +38,27 @@ export default function HowItStarted() {
           {/* Main Content Card */}
           <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 md:p-12 lg:p-16">
             <div className="space-y-8">
-              <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
+              <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
                 VampCat was created on values most meme coins ignore: <span className="text-white font-semibold">no pump and dumps</span>, 
                 no fake bullshit hype, no race to the exit to sell. This is a <span className="text-red-500 font-semibold">long-term play</span> designed 
                 to grow steadily and bring people together around something real and fun.
               </p>
               
-              <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
+              <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
                 It's about building a community that lasts - one that values strong mindsets, patience, 
                 and the mystery of the night - just like the cats it's inspired by.
               </p>
               
               <div className="w-32 h-1 bg-red-600 my-8" />
               
-              <p className="text-xl md:text-2xl text-gray-300 leading-relaxed">
+              <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
                 At its core, VampCat is for people who want more than just a quick flip. It's 
                 for those who want to be a part of a movement that balances <span className="text-white font-semibold">fun with purpose</span>, 
                 playfulness, and wisdom.
               </p>
 
               <div className="pt-6">
-                <p className="text-2xl md:text-3xl text-white font-bold">
+                <p className="text-xl md:text-2xl text-white font-bold">
                   A meme coin with an actual soul - and a future.
                 </p>
               </div>

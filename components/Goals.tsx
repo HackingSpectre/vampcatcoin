@@ -30,9 +30,9 @@ export default function Goals() {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.6 }}
-          className="mb-16 md:mb-20"
+          className="mb-12 md:mb-20"
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-black mb-4 tracking-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-black mb-4 tracking-tight">
             <span className="text-red-600">$VCC</span> Goals
           </h2>
           <div className="w-20 h-1.5 bg-red-600" />
@@ -81,7 +81,7 @@ export default function Goals() {
 
                 {/* Goal Text */}
                 <div className="flex-1">
-                  <span className={`text-lg md:text-xl lg:text-2xl font-semibold ${
+                  <span className={`text-base md:text-lg lg:text-xl font-semibold ${
                     goal.completed ? 'text-black' : 'text-gray-600'
                   }`}>
                     {goal.text}

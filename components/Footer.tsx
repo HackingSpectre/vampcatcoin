@@ -11,10 +11,10 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 lg:gap-16 mb-16">
           {/* Brand Section */}
           <div className="space-y-6">
-            <h3 className="text-2xl md:text-3xl font-black text-white">
+            <h3 className="text-xl md:text-2xl font-black text-white">
               VampCat<span className="text-red-600">Coin</span>
             </h3>
-            <p className="text-gray-400 leading-relaxed text-lg">
+            <p className="text-gray-400 leading-relaxed text-base">
               The original VampCatCoin meme coin, taking over social media one human at a time!
             </p>
             <div className="flex gap-4 pt-2">

@@ -38,10 +38,10 @@ export default function Artwork() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 md:mb-20"
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-black mb-4 tracking-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-black mb-4 tracking-tight">
             VampCat <span className="text-red-600">Artwork</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto mt-4">
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mt-4">
             Exclusive collection celebrating our mysterious feline friends
           </p>
           <div className="w-20 h-1.5 bg-red-600 mx-auto mt-6" />

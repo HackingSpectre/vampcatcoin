@@ -47,7 +47,7 @@ export default function Hero() {
             className="text-center max-w-5xl w-full"
           >
             <motion.h2 
-              className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black text-white mb-4 md:mb-6 tracking-tighter leading-none"
+              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white mb-4 md:mb-6 tracking-tighter leading-none"
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
@@ -56,7 +56,7 @@ export default function Hero() {
             </motion.h2>
             
             <motion.p 
-              className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-8 md:mb-10"
+              className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold mb-8 md:mb-10"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
